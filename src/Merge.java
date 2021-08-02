@@ -1,4 +1,9 @@
 public class Merge {
+    public static void main(String[] args) {
+        aux = new Comparable[100];
+        sort(aux, 0, 100);
+    }
+
     private static Comparable[] aux;
 
     public static void sort(Comparable[] a){
